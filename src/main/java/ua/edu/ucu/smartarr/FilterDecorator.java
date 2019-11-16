@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 // Tests every element and removes it if it doesn't satisfy MyPredicate
 public class FilterDecorator extends SmartArrayDecorator {
-    MyPredicate myPr;
+    private MyPredicate myPr;
 
     public FilterDecorator(SmartArray smArr, MyPredicate myPr) {
         super(smArr);

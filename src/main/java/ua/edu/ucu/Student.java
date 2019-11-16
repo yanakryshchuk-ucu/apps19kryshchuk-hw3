@@ -39,7 +39,9 @@ class Student {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
+        if (this == obj) {
+            return true;
+        }
         if (obj instanceof Student) {
             Student other = (Student) obj;
             return this.getSurname().equals(other.getSurname())
