@@ -8,9 +8,8 @@ package ua.edu.ucu.functions;
 import java.util.Comparator;
 
 /**
- *
  * @author Andrii_Rodionov
  */
-public interface MyComparator<T> extends Comparator<T>{
+public interface MyComparator<T> extends Comparator<T> {
 
 }

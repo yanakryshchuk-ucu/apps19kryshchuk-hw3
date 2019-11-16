@@ -8,10 +8,9 @@ package ua.edu.ucu.functions;
 import java.util.function.Function;
 
 /**
- *
  * @author Andrii_Rodionov
  */
-public interface MyFunction<T,R> extends Function<T,R> {
+public interface MyFunction<T, R> extends Function<T, R> {
 
 //    R apply(T t);
 }

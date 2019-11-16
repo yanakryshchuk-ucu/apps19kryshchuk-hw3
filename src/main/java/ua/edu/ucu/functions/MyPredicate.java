@@ -8,7 +8,6 @@ package ua.edu.ucu.functions;
 import java.util.function.Predicate;
 
 /**
- *
  * @author Andrii_Rodionov
  */
 public interface MyPredicate<T> extends Predicate<T> {

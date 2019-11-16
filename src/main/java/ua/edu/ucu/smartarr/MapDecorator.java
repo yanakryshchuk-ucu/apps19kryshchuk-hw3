@@ -4,7 +4,6 @@ import ua.edu.ucu.functions.MyFunction;
 
 import java.util.stream.Stream;
 
-import static java.util.stream.IntStream.range;
 
 // Map every element to another object using MyFunction
 public class MapDecorator extends SmartArrayDecorator {
